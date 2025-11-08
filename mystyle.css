@@ -31,6 +31,8 @@ body{
     font-size: 2.5rem;
     color:   rgba(46, 238, 142, 0.587);
     cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: -30px;
     
    
 }
@@ -147,6 +149,7 @@ form{
 }
 
 .search{
+    margin-top: -30px;
     align-items: center;
     display: flex;
     flex-flow: row wrap;
@@ -163,7 +166,9 @@ form{
 }
 
 
-
+.menu{
+    margin-top: -46px;
+}
 
 .menu ul{
     list-style: none;
@@ -311,9 +316,11 @@ form{
     }
 
     .search .srch{
+        margin-top: 40px;
         width: 80%;
     }
     .search .btn{
+        margin-top: 40px;
         width: 20%;
     }
 
@@ -324,7 +331,7 @@ form{
 
    .hamburger i{
     position: absolute;
-    top: 64px;
+    top: 30px;
     font-size: 1.7rem;
    }
 
