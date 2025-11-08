@@ -323,6 +323,8 @@ form{
     }
 
    .hamburger i{
+    position: absolute;
+    top: 64px;
     font-size: 1.7rem;
    }
 
